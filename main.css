@@ -1,0 +1,231 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Barra de menú principal*/
+.logo{
+    height: 80px;
+}
+
+
+.menu{
+    background-color: #FFF9FC;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    clear: right;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-item{
+    padding-right: 3%;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #561832;
+    
+}
+.menu-text:hover{
+    color: #ED82AE;
+}
+
+
+/*Portada con foto y botón de formulario*/
+.contenedorportada{
+    width:100%;
+    position: relative;
+}
+
+.portadatexto{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    margin: 0 auto;
+
+    color: white;
+    font-size:x-large;
+    text-shadow: 2px 2px 5px black;
+}
+
+.botonform{
+    background-color: #561832;
+    color: white;
+    font-size: 20px;
+    width: 10%;
+    border: #561832;
+    padding: 10px;
+    
+    box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333;
+}
+.botonform:hover{
+    color: #ED82AE;
+}
+
+
+/*Menú de pasteles*/
+.pancontainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+}
+
+img.saborespan{
+    height: 100px;
+    
+}
+
+.saborespan{
+    background-color: #ED82AE;
+    text-align: center;
+    border-radius: 10%;
+    
+    color: white;
+}
+
+div.saborespan{
+    box-shadow: 0px 0 10px 0 #333333;
+}
+
+.sabor{
+    font-weight:bold;
+    font-size: large;
+    
+}
+
+.tittle{
+    color: #561832;
+    font-size: xx-large;
+}
+
+
+/*Formulario*/
+.form{
+    width: 100%;
+    text-align: center;
+}
+.formcontainer{
+    background-color: rgb(248, 238, 238);
+
+    border-radius: 5%;
+    border-style: groove;
+    border-color: #ED82AE;
+    box-shadow: 0px 0 10px 0 #333333;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+input.entrada{
+    border: none;
+    width: 250%;
+}
+
+form{
+    padding-left: 30%;
+}
+
+.enviar{
+    background-color: #561832;
+    color: white;
+    font-size: 20px;
+    
+    border: #561832;
+    padding: 10px;
+    box-shadow: 0 9px 18px 0 #333333;   
+}
+.enviar:hover{
+    color: #ED82AE;
+}
+
+/*About us*/
+
+.about-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+}
+
+.about-tittle{
+    width: 100%;
+    text-align: center;
+}
+.about-info{
+    width: 50%;
+}
+
+.about-foto{
+    box-shadow: 0px 0 10px 0 #333333;
+}
+
+.redes{
+    font-size:x-large;
+}
+svg.redes{
+    width: 10%;
+}
+
+
+
+/*Tabla de ordenes*/
+.tablapastelero{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+}
+
+.tablacontainer{
+    text-align: center;
+}
+
+th{
+    padding: 5px;
+    background-color: #561832;
+    color: white;
+}
+
+td{
+    background-color: ghostwhite;
+    padding: 5px;
+}
+
+
+/*Pié de página*/
+footer{
+    background-color: #561832;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    left: 0%;
+    bottom: 0%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    
+}
+
+
